@@ -13,3 +13,67 @@ nav {
 display: inline-flex;
 margin-right: 12px;
 }
+
+.banner-container {
+    display: inline-flex;
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+}
+
+
+.banner-text-container {
+    width: 40%;
+    height: auto;
+    margin: auto;;
+
+}
+
+#imagecontainer {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+#bannerimage {
+    width: 100%;
+    height: auto;
+}
+#banner-text {
+    color: gray;
+    align-content: center;
+    margin: 32px 24px;
+}
+#banner-tittle-p {
+    padding: 24px 0;
+}
+#start-button {
+    width: 60%;
+    display: block;
+    margin: 12px auto;
+    padding: 8px 0px 8px;
+    color: white;
+    background-color: grey;
+    
+}
+@media screen and (max-width: 767px){
+    .banner-container {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    #imagecontainer {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    
+    #imagecontainer img {
+        max-width: 100%;
+    }
+    .banner-text-container {
+        width: 100%;
+        height: auto;
+        padding: 32px 16px;
+    }
+}
+    
