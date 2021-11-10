@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    display: inline-flex;
+    margin-right: 12px;
+}
+#academy {
+    font-weight: bold;
+}
+.nav-links p {
+display: inline-flex;
+margin-right: 12px;
+}
