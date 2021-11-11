@@ -1,6 +1,48 @@
 nav {
     display: flex;
     justify-content: space-between;
+
+}
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.three-image-col {
+    display: block;
+    background-color:;
+    width: 40%;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.img {
+    display: inline-flex;
+    justify-content: space-around;
+   
+    width: 100%;
+    padding: 16px 16px;
+
+}
+.pic-text {
+font-size: medium;
+}
+.imgg {
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    width: 100%;
+    padding: 16px 16px;
+
+}
+
+.image-col {
+    width: 60%;
+    margin-right: 24px;
+    margin-left: 24px;
+
 }
 #logo {
     display: inline-flex;
@@ -21,14 +63,26 @@ margin-right: 12px;
     height: auto;
 }
 
-
 .banner-text-container {
     width: 40%;
     height: auto;
     margin: auto;;
 
 }
+.asdf {
+    width: 35%;
+}
+    
+#main {
+    width: 100%;
+    height: auto;
+}
 
+#ori {
+    display: flex;
+    justify-content: center;
+    
+}
 #imagecontainer {
     width: 60%;
     height: auto;
@@ -38,13 +92,19 @@ margin-right: 12px;
     width: 100%;
     height: auto;
 }
+
+}
 #banner-text {
     color: gray;
     align-content: center;
     margin: 32px 24px;
 }
+
 #banner-tittle-p {
     padding: 24px 0;
+}
+
+   
 }
 #start-button {
     width: 60%;
@@ -54,6 +114,9 @@ margin-right: 12px;
     color: white;
     background-color: grey;
     
+}
+
+
 }
 @media screen and (max-width: 767px){
     .banner-container {
